@@ -1,9 +1,15 @@
 # Remote Work Health Analysis
-The objective of this work is to demonstrate how many aspect in our working life can have an impact on the health of workers. Using the dataset taken of Kaggle (https://www.kaggle.com/datasets/pratyushpuri/remote-work-health-impact-survey-2025), my job was to clean and manipulate the data in a way where I could make an approach to what were the factors that can impact the health of workers. 
-In this step, using BigQuery, I created a risk score, in which it creates a score to check the well-being of workers and how much of them have a balance and healthy life-style or if the work they are currently is too much for them to be healthy. 
+This project explores how different aspects of remote work influence the mental and physical health of employees. Using the dataset from Kaggle (https://www.kaggle.com/datasets/pratyushpuri/remote-work-health-impact-survey-2025), the goal was to identify which work-related factors contribute the most to remote workers’ well-being or stress levels.
+
+To do this, the dataset was cleaned and transformed using BigQuery, where a Risk Score was created to assess the overall well-being of remote workers. This score aggregates multiple variables (such as hours worked, burnout, mental health status, and social isolation) to categorize individuals as Healthy, At Risk, Unhealthy, or Very Unhealthy.
+
+After processing the data, the results were exported to CSV and analyzed through an interactive Power BI dashboard, which visualizes how each factor contributes to worker health.
 
 # Documents
 In this project, you can find:
-- a sql file, where you can check the code that I used to clean and manipulate the data
-- a csv file, containing the data
-- a PowerBi presentation, for you to check the metrics used and what impact can they have in workers who work remotly
+- SQL file: Data cleaning, transformation, and risk score calculation using BigQuery
+- CSV file: Cleaned dataset ready for analysis
+- Power BI report: Visualization of the main findings and variable-level health impacts
+
+# Objective
+To understand the primary factors affecting the health of remote workers and determine whether specific job conditions—especially in remote settings—may contribute to higher stress or health risks.
